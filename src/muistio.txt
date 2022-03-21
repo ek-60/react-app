@@ -1,0 +1,57 @@
+reat.app
+
+3 sivun app. (etusivu, tieto/kouluprojektit, app)
+
+navbar.
+-nimi/logo, etusivu, tieto siirtyy näille sivuille.
+-app kohdasta painaa niin ehodottaa todoApp ja calculatorApp
+-https://react-bootstrap.github.io/components/navbar/
+-responsiivinen
+
+*npm install react-bootstrap-validation
+npm install react-bootstrap bootstrap@5.1.3
+npm install react-router-dom /DEL kosksa SWITCH ei toiminut
+-npm install react-router-dom@5.2.0
+npm install @mui/icons-material
+
+
+footer.
+-linkedin kuvake. puhelin kuvake. sposti kuvake? github kuvake? jos joo tee sinne tili laita kaikki projekti koodit sinne lisää python tiedostoja sinne.
+-kuvaketta painamalle siirty linkkariin/gittiin, näyttää puh/säpön jotka ovat mahdollista kopioda suoraan?
+-https://mui.com/components/material-icons/
+
+nav ja footer näkyvät kaikilla sivuilla.
+
+etusivu.
+-kuva, tietoa minusta, miten nettisivu tehtiin, mitä kirjastoja hyödynsin.
+-kuva vasemalla puolella. 
+-https://react-bootstrap.netlify.app/components/cards/
+-tietoa minusta kuvan oikealle puolelle.
+-button joka avaa CV?
+-näiden alla tietoa miten olen rakentanut sivun mitä kirjastoja jne.
+-responsiivisuus girdin avulla 
+-1 row 2 columnilla (kun menee tarpeeksi pieneksi niin menee päällekkäin
+-2row yhdellä kolumnilla
+-https://react-bootstrap.netlify.app/layout/grid/
+-https://mui.com/components/grid/
+
+app.
+-navbar hiirellä menee app kohalle niin alas tulee vaihtoehdoikse calc ja todo
+-painamalla calc/todo pääset kysyisen ohjelman sivulle. 
+-painamalla app. pääset app sivulle jossa tulee kuvake calc, todo apeist ja tulossa oleva sovellus
+-app sivulla calc ja todo ja tulossa oleva app kuvake.
+-responsiivinen eli kolme kuvaketta vierekkäin tarpeeksi pienelle niin menevät päällekkäin
+-Eli hyödynnä gird
+-painamalla kuvakkeesta pääset kysyiseen ohjelmaan
+-calcutator ja todoapp
+-tulossa oleva app laittaa errorin tai että kyseinen ohjelma ei ole vielä valmis
+-tehty toiseen projektiin kopio sieltä malliksi parantele kuvakkeita
+-pitää saada responsiivikseksi.
+-api weather 
+-3 slider (3 eri kaupunkia, 1yksi missä olet nytten, toinen joku muu kaupunki viimeinen valitse mikä kaupunki??)
+
+tieto/kouluprojektit.
+-youtube kuvakkeet kouluprojekteista.
+-kuvia/tai teksikenttä jostain python/c++/C# koodista? esim. muistion teko, joku muu minkä keksii tai etsii netistä mitä hyviä projekteja kannattaa tehdä ja millä pystyy näyttämään oman osaamisen.
+-ulko asu kaksi videota vierekkäin päälle teksi ja kertomus mitä projektissa tehdään jne.
+-tämän alla joko pari kuvaa koodista mitä olen tehnyt mitä kyseinen koodi tekee, PARAS VAIHTOEHTO ETTÄ SIINÄ ON TEKSI KENTTÄ MINKÄ PYSTYY KOPIOMAAN JA NÄIN
