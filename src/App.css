@@ -24,9 +24,9 @@
 }
 
 .about {
-  /* padding: 1rem; */
-  /* margin: 1rem; */
-  /* background-color: aqua; */
+  padding: 1rem;
+  margin: 1rem;
+  background-color: aqua;
   height: fit-content;
   text-align: left;
 }

@@ -15,15 +15,15 @@ export default class NavbarComp extends Component {
     return (
         <Router>
             <div>
-                <Navbar bg="dark" variant="dark" expand="lg">
+                <Navbar bg="secondary" variant="dark" expand="lg">
                     <Container>
-                        <Navbar.Brand as={Link} to={"/Home"}>Eemeli Kyrölä</Navbar.Brand>
+                        <Navbar.Brand style={{fontWeight: "bold" }} as={Link} to={"/Home"}>Eemeli Kyrölä</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto">
                             <Nav.Link as={Link} to={"/Home"}>Home</Nav.Link>
                             <Nav.Link  as={Link} to={"/About"}>About</Nav.Link>
-                                <NavDropdown as={Link} to={"/Works"} title="Works" id="basic-nav-dropdown">
+                                <NavDropdown bg="bla" variant="dark" as={Link} to={"/Works"} title="Works" id="basic-nav-dropdown">
                                 <NavDropdown.Item as={Link} to={"/Todo"}>TodoApp</NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to={"/Calculator"}>Calculator</NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to={"/Weather"}>Weather</NavDropdown.Item>
